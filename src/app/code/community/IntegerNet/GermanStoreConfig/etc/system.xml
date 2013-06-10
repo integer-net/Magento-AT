@@ -4,7 +4,7 @@
         <admin>
             <groups>
                 <germanstoreconfig translate="label">
-                    <label>Magento DE</label>
+                    <label>Magento AT</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>900</sort_order>
                     <show_in_default>1</show_in_default>

@@ -178,16 +178,16 @@
     <default>
         <general>
             <country>
-                <allow>DE</allow>
+                <allow>AT</allow>
             </country>
             <locale>
-                <code>de_DE</code>
+                <code>de_AT</code>
             </locale>
             <store_information>
-                <merchant_country>DE</merchant_country>
+                <merchant_country>AT</merchant_country>
             </store_information>
             <imprint>
-                <country>DE</country>
+                <country>AT</country>
                 <display_copyright>1</display_copyright>
             </imprint>
         </general>
@@ -242,7 +242,7 @@
         <autoshipping>
             <settings>
                 <enabled>1</enabled>
-                <country_id>DE</country_id>
+                <country_id>AT</country_id>
             </settings>
         </autoshipping>
         <carriers>
@@ -280,7 +280,7 @@
                 <sort_order>30</sort_order>
                 <order_status>pending</order_status>
                 <allowspecific>1</allowspecific>
-                <specificcountry>DE</specificcountry>
+                <specificcountry>AT</specificcountry>
             </debit>
             <cashondelivery>
                 <active>1</active>
@@ -288,7 +288,7 @@
                 <sort_order>40</sort_order>
                 <order_status>pending</order_status>
                 <shippingallowspecific>1</shippingallowspecific>
-                <shippingspecificcountry>DE</shippingspecificcountry>
+                <shippingspecificcountry>AT</shippingspecificcountry>
                 <inlandcosts>2</inlandcosts>
                 <customtext>Bei Zahlung per Nachnahme erhebt der Zusteller zusätzlich 2,00 €
                     Übermittlungsentgelt vor Ort.</customtext>
@@ -322,13 +322,13 @@
         <germanstoreconfig>
             <appfactory_url_de>http://de.nr-apps.com</appfactory_url_de>
             <appfactory_url_en>http://www.nr-apps.com</appfactory_url_en>
-            <magentode_url_de>http://de.nr-apps.com/store/magento-de.html</magentode_url_de>
-            <magentode_url_en>http://www.nr-apps.com/store/magento-de.html</magentode_url_en>
+            <magentode_url_de>http://de.nr-apps.com/store/magento-at.html</magentode_url_de>
+            <magentode_url_en>http://www.nr-apps.com/store/magento-at.html</magentode_url_en>
             <integernet_url_de>http://www.integer-net.de</integernet_url_de>
             <integernet_url_en>http://www.integer-net.de</integernet_url_en>
             <tracking_url>http://www.nr-apps.com/store/germanstoreconfig/tracking</tracking_url>
             <newsfeed_url>http://www.nr-apps.com/store/media/germanstoreconfig/feed.xml</newsfeed_url>
-            <iframe_url_prefix>https://www.nr-apps.com/n/magento-de/</iframe_url_prefix>
+            <iframe_url_prefix>https://www.nr-apps.com/n/magento-at/</iframe_url_prefix>
             <iframe_url_suffix>.html</iframe_url_suffix>
             <feed_url_prefix>http://www.nr-apps.com/store/media/germanstoreconfig/</feed_url_prefix>
             <default_language>
@@ -340,11 +340,11 @@
                 <!--<fr_FR>Français</fr_FR>-->
                 <!--<it_IT>Italiano</it_IT>-->
             </available_languages>
-            <country>DE</country>
+            <country>AT</country>
             <currency>EUR</currency>
             <timezone>Europe/Berlin</timezone>
-            <module_title>Magento DE</module_title>
-            <module_code>magento_de</module_code>
+            <module_title>Magento AT</module_title>
+            <module_code>magento_at</module_code>
         </germanstoreconfig>
     </default>
 </config>
