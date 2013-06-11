@@ -181,13 +181,14 @@
                 <allow>AT</allow>
             </country>
             <locale>
-                <code>de_AT</code>
+                <code>de_DE</code>
             </locale>
             <store_information>
                 <merchant_country>AT</merchant_country>
             </store_information>
             <imprint>
                 <country>AT</country>
+                <zip>1234</zip>
                 <display_copyright>1</display_copyright>
             </imprint>
         </general>
