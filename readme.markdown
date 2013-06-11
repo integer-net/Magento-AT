@@ -1,12 +1,12 @@
-Magento DE - German Store Configuration for Magento CE
+Magento AT - Austrian Store Configuration for Magento CE
 =====================
-A preconfigured Magento CE installation for German Merchants
+A preconfigured Magento CE installation for Austrian Merchants
 
 Facts
 -----
 - version: 1.2.1
-- [On GitHub](https://github.com/integer-net/GermanStoreConfig)
-- [direct download link](https://github.com/integer-net/GermanStoreConfig/archive/master.zip)
+- [On GitHub](https://github.com/integer-net/Magento-AT)
+- [direct download link](https://github.com/integer-net/Magento-AT/archive/master.zip)
 
 Description
 -----------
@@ -15,10 +15,11 @@ It provides a slightly modified installation process, a form to enter all releva
 is displayed on first admin user login. On completion of the form, caches are disabled and indices are refreshed.
 
 A few useful and preconfigured modules are shipped with the distribution:
-- German Language Pack
-- FireGento_GermanSetup (for base settings and adjustments for the German market; will be called on form submit)
+- Austrian translations
+- German Language Pack as fallback
+- FireGento_GermanSetup (for base settings and adjustments for the Austrian market; will be called on form submit)
 - FireGento_Pdf (to create better PDF invoices)
-- DerModPro_BasePrice (for displaying the price per base unit, required in many cases according to German Laws)
+- DerModPro_BasePrice (for displaying the price per base unit, required in many cases according to Austrian Laws)
 - IntegerNet_Autoshipping (for displaying shipping costs in cart even when no shipping address is entered yet, see [this German blog entry](http://www.integer-net.de/magento-versandkostenvorschau-im-warenkorb-mit-integernet_autoshipping/))
 - Phoenix_CashOnDelivery (Payment Method)
 - Itabs_DebitPayment (Payment Method)
@@ -55,7 +56,7 @@ Uninstallation
 
 Support
 -------
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/integer-net/GermanStoreConfig/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/integer-net/Magento-AT/issues).
 
 Contribution
 ------------
@@ -81,6 +82,7 @@ Thanks to
 ---------
 - [Magento Inc.](http://www.magentocommerce.com/) for the Magento Community Edition
 - Thomas Fleck and the [Netresearch App Factory](http://www.nr-apps.com) for ideas, cooperation, marketing and support
+- Matthias Zeis and [LimeSoda](http://www.limesoda.com) for support and consulting regarding the Austrian Market
 - the [FireGento team](https://github.com/firegento) for [GermanSetup](https://github.com/firegento/firegento-germansetup) and [FireGento_Pdf](https://github.com/firegento/firegento-pdf)
 - Rico Neitzel and Daniel Sasse for the [German Language Pack](https://github.com/riconeitzel/German_LocalePack_de_DE)
 - [Phoenix Media](http://www.phoenix-media.eu) and [ITABS](http://www.itabs.de) for the payment modules
