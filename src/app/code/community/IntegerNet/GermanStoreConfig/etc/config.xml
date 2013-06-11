@@ -183,6 +183,7 @@
             <locale>
                 <code>de_AT</code>
                 <code_fallback>de_DE</code_fallback>
+                <firstday>1</firstday>
             </locale>
             <store_information>
                 <merchant_country>AT</merchant_country>
