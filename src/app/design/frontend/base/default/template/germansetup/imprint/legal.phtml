@@ -31,16 +31,19 @@
     <?php echo $this->__('CEO') ?>: <?php echo $this->getCeo() ?><br />
 <?php endif ?>
 <?php if (strlen(trim($this->getOwner()))): ?>
-<?php echo $this->__('Owner') ?>: <?php echo $this->getOwner() ?><br />
+    <?php echo $this->__('Owner') ?>: <?php echo $this->getOwner() ?><br />
 <?php endif ?>
 <?php if (strlen(trim($this->getContentResponsableName())) || strlen(trim($this->getContentResponsableAddress()))): ?>
     <p><?php echo $this->__('Responsible according to § 5 TMG'); ?>:</p>
 <?php endif;?>
 <?php if (strlen(trim($this->getContentResponsableName()))): ?>
-<?php echo $this->__('Responsible for content') ?>: <?php echo $this->getContentResponsableName() ?><br />
+    <?php echo $this->__('Responsible for content') ?>: <?php echo $this->getContentResponsableName() ?><br />
 <?php endif ?>
 <?php if (strlen(trim($this->getContentResponsableAddress()))): ?>
-<?php echo $this->__('Responsible for content address') ?>: <?php echo $this->getContentResponsableAddress() ?><br />
+    <?php echo $this->__('Responsible for content address') ?>: <?php echo $this->getContentResponsableAddress() ?><br />
+<?php endif ?>
+<?php if (strlen(trim($this->getContentResponsablePressLaw()))): ?>
+    <?php echo $this->__('Responsible in the interests of the press law') ?>: <?php echo $this->getContentResponsablePressLaw() ?><br />
 <?php endif ?>
 <?php if (strlen(trim($this->getVatId()))): ?>
     <?php echo $this->__('VAT-ID') ?>: <?php echo $this->getVatId() ?><br />
@@ -52,5 +55,14 @@
     <?php echo $this->__('Register number') ?>: <?php echo $this->getRegisterNumber() ?><br />
 <?php endif ?>
 <?php if (strlen(trim($this->getBusinessRules()))): ?>
-    <?php echo $this->__('Reference for business rules') ?>: <?php echo $this->getBusinessRules() ?>
+    <?php echo $this->__('Reference for business rules') ?>: <?php echo $this->getBusinessRules() ?><br />
+<?php endif ?>
+<?php if (strlen(trim($this->getAuthority()))): ?>
+    <?php echo $this->__('Authority (ECG)') ?>: <?php echo $this->getAuthority() ?><br />
+<?php endif ?>
+<?php if (strlen(trim($this->getShareholdings()))): ?>
+    <?php echo $this->__('Shareholdings') ?>: <?php echo nl2br($this->getShareholdings()) ?><br />
+<?php endif ?>
+<?php if (strlen(trim($this->getEditorialConcept()))): ?>
+    <?php echo $this->__('Editorial Concept') ?>: <?php echo $this->getEditorialConcept() ?><br />
 <?php endif ?>
