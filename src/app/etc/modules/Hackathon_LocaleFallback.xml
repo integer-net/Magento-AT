@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Hackathon_LocaleFallback>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core />
+            </depends>
+        </Hackathon_LocaleFallback>
+    </modules>    
+</config>
