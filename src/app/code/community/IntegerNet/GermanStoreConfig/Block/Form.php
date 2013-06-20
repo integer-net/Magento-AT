@@ -82,14 +82,21 @@ class IntegerNet_GermanStoreConfig_Block_Form extends Mage_Adminhtml_Block_Widge
             ),
             array(
                 'type' => 'text',
+                'name' => 'general__imprint__vat_id',
+                'label' => Mage::helper('germansetup')->__('VAT-ID'),
+                'optional' => true,
+            ),
+            array(
+                'type' => 'text',
                 'name' => 'general__imprint__tax_number',
                 'label' => Mage::helper('germansetup')->__('Tax number'),
                 'optional' => true,
             ),
             array(
                 'type' => 'text',
-                'name' => 'general__imprint__vat_id',
-                'label' => Mage::helper('germansetup')->__('VAT-ID'),
+                'name' => 'general__imprint__register_number',
+                'label' => Mage::helper('germansetup')->__('Register number'),
+                'optional' => true,
             ),
             array(
                 'type' => 'text',
@@ -117,8 +124,20 @@ class IntegerNet_GermanStoreConfig_Block_Form extends Mage_Adminhtml_Block_Widge
             ),
             array(
                 'type' => 'text',
-                'name' => 'general__imprint__register_number',
-                'label' => Mage::helper('germansetup')->__('Register number'),
+                'name' => 'general__imprint__authority',
+                'label' => Mage::helper('germansetup')->__('Authority (ECG)'),
+                'optional' => true,
+            ),
+            array(
+                'type' => 'textarea',
+                'name' => 'general__imprint__shareholdings',
+                'label' => Mage::helper('germansetup')->__('Shareholdings'),
+                'optional' => true,
+            ),
+            array(
+                'type' => 'text',
+                'name' => 'general__imprint__editorial_concept',
+                'label' => Mage::helper('germansetup')->__('Editorial Concept'),
                 'optional' => true,
             ),
             array(

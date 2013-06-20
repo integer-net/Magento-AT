@@ -52,9 +52,9 @@
                             <td class="label"><label for="select_country"><?php echo $this->__('Shipping from') ?></label></td>
                             <td class="value" style="width:160px !important;">
                                 <select name="country" id="select_country" style="width:150px !important;">
-                                    <option value="de" selected="selected"><?php echo $this->__('Germany')?></option>
-                                    <option value="at"><?php echo $this->__('Austria')?></option>
-                                    <option value="ch"><?php echo $this->__('Switzerland')?></option>
+                                    <option value="de"<?php if (Mage::getStoreConfig('germansetup/default_country') == 'de'): ?> selected="selected"<?php endif ?>><?php echo $this->__('Germany')?></option>
+                                    <option value="at"<?php if (Mage::getStoreConfig('germansetup/default_country') == 'at'): ?> selected="selected"<?php endif ?>><?php echo $this->__('Austria')?></option>
+                                    <option value="ch"<?php if (Mage::getStoreConfig('germansetup/default_country') == 'ch'): ?> selected="selected"<?php endif ?>><?php echo $this->__('Switzerland')?></option>
                                 </select>
                             </td>
                             <td class="value">

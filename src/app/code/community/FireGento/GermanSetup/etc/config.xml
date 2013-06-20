@@ -349,5 +349,9 @@ Tel: {{var telephone}}
             </convert>
         </url>
 
+        <germansetup>
+            <default_country>de</default_country>
+        </germansetup>
+
     </default>
 </config>
